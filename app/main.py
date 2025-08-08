@@ -6,7 +6,7 @@ import pandas as pd
 app = FastAPI()
 
 # Load the trained model
-model = joblib.load("src/model/model.pkl")
+model = joblib.load("model/model.pkl")
 
 
 # Define the prediction endpoint
