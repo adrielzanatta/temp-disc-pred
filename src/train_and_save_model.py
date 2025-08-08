@@ -18,12 +18,12 @@ from tools import outlier_removal
 from FeatureEngineer import FeatureEngineer
 
 # ===== CONFIG =====
-TRAIN_DATA_PATH = "data/301A_2ND_CLEAN.csv"
+TRAIN_DATA_PATH = "src/data/301A_2ND_CLEAN.csv"
 TARGET_COLUMN = "temp_dis"
 NOT_FILTER_OUTLIERS = ["prod_grade", "timestamp_numeric"]
-MODEL_PATH = "model.pkl"
-VERSION_PATH = "model_version.txt"
-METRICS_PATH = "metrics.json"
+MODEL_PATH = "src/model/model.pkl"
+VERSION_PATH = "src/model/model_version.txt"
+METRICS_PATH = "src/model/metrics.json"
 N_SPLITS = 5
 RANDOM_STATE = 42
 
