@@ -1,0 +1,9 @@
+TRAIN_DATA_PATH = "data/301A_2ND_CLEAN.csv"
+TARGET_COLUMN = "temp_dis"
+CATEGORIAL_FEATURES = ["prod_grade"]
+NOT_FILTER_OUTLIERS = ["prod_grade", "timestamp_numeric"]
+MODEL_PATH = "src/model.joblib"
+VERSION_PATH = "src/model_version.txt"
+METRICS_PATH = "src/metrics.json"
+N_SPLITS = 5
+RANDOM_STATE = 42
